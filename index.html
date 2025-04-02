@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BA27 Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <div class="header-container">
+            <div class="logo">BA27 Portfolio</div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="nav-link active" data-page="home">Home</a></li>
+                    <li><a href="#portfolio" class="nav-link" data-page="portfolio">Portfolio</a></li>
+                    <li><a href="#about" class="nav-link" data-page="about">About</a></li>
+                    <li><a href="#blog" class="nav-link" data-page="blog">Blog</a></li>
+                    <li><a href="#contact" class="nav-link" data-page="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="main-container">
+        <!-- Home Page -->
+        <section id="home-page" class="page active-page">
+            <div class="hero">
+                <h1>Welcome to My Creative Portfolio</h1>
+                <p>I'm a passionate designer and developer creating beautiful, functional digital experiences that make an impact.</p>
+                <a href="#portfolio" class="btn nav-link" data-page="portfolio">View My Work</a>
+            </div>
+            
+            <h2>Featured Projects</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="images/project1.jpg" alt="Project 1">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>E-commerce Website</h3>
+                        <p>A fully responsive online store with custom CMS integration.</p>
+                        <a href="#project1" class="nav-link" data-page="project1">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="images/project2.jpg" alt="Project 2">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Mobile App UI</h3>
+                        <p>User interface design for a fitness tracking application.</p>
+                        <a href="#project2" class="nav-link" data-page="project2">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="images/project3.jpg" alt="Project 3">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Brand Identity</h3>
+                        <p>Complete branding package for a startup company.</p>
+                        <a href="#project3" class="nav-link" data-page="project3">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Page -->
+        <section id="portfolio-page" class="page">
+            <h1>My Portfolio</h1>
+            <p>Here's a collection of my best work across various disciplines including web design, graphic design, and user experience.</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="images/web-design.jpg" alt="Web Design">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Responsive Website</h3>
+                        <p>Modern website design with mobile-first approach.</p>
+                        <a href="#web-project" class="nav-link" data-page="web-project">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="images/logo-design.jpg" alt="Logo Design">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Logo Collection</h3>
+                        <p>Various logo designs created for different industries.</p>
+                        <a href="#logo-project" class="nav-link" data-page="logo-project">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="images/app-design.jpg" alt="App Design">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Mobile Application</h3>
+                        <p>UI/UX design for a productivity mobile app.</p>
+                        <a href="#app-project" class="nav-link" data-page="app-project">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="images/print-design.jpg" alt="Print Design">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Print Materials</h3>
+                        <p>Brochures, business cards, and other print designs.</p>
+                        <a href="#print-project" class="nav-link" data-page="print-project">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="images/illustration.jpg" alt="Illustration">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Digital Illustrations</h3>
+                        <p>Custom illustrations for various clients.</p>
+                        <a href="#illustration-project" class="nav-link" data-page="illustration-project">View Details</a>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="images/packaging.jpg" alt="Packaging">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Product Packaging</h3>
+                        <p>Packaging design for consumer products.</p>
+                        <a href="#packaging-project" class="nav-link" data-page="packaging-project">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Page -->
+        <section id="about-page" class="page">
+            <div class="about-section">
+                <div class="about-img">
+                    <img src="images/profile.jpg" alt="Profile Image">
+                </div>
+                <div class="about-content">
+                    <h1>About Me</h1>
+                    <p>Hello! I'm BA27, a multidisciplinary designer and developer with over 5 years of experience creating digital experiences that are both beautiful and functional.</p>
+                    <p>My journey in design began when I was studying computer science and discovered my passion for creating interfaces that people love to use. Since then, I've worked with startups, agencies, and large corporations to bring their digital products to life.</p>
+                    <p>When I'm not designing or coding, you can find me hiking, photography, or exploring new coffee shops in my city.</p>
+                    
+                    <div class="skills">
+                        <h2>My Skills</h2>
+                        <div class="skill-tags">
+                            <span class="skill-tag">UI/UX Design</span>
+                            <span class="skill-tag">Web Development</span>
+                            <span class="skill-tag">Graphic Design</span>
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Responsive Design</span>
+                            <span class="skill-tag">Branding</span>
+                            <span class="skill-tag">Illustration</span>
+                            <span class="skill-tag">Adobe Creative Suite</span>
+                            <span class="skill-tag">Figma</span>
+                            <span class="skill-tag">WordPress</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Page -->
+        <section id="blog-page" class="page">
+            <h1>My Blog</h1>
+            <p>Thoughts on design, development, and the creative process.</p>
+            
+            <div class="blog-posts">
+                <div class="blog-post">
+                    <div class="portfolio-img">
+                        <img src="images/blog1.jpg" alt="Blog Post 1">
+                    </div>
+                    <div class="blog-content">
+                        <h3>The Future of Responsive Design</h3>
+                        <div class="blog-meta">Posted on June 15, 2023 | 5 min read</div>
+                        <p>Exploring emerging trends in responsive web design and how they're changing the way we build for the web.</p>
+                        <a href="#blog-post1" class="nav-link" data-page="blog-post1">Read More</a>
+                    </div>
+                </div>
+                
+                <div class="blog-post">
+                    <div class="portfolio-img">
+                        <img src="images/blog2.jpg" alt="Blog Post 2">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Color Psychology in Branding</h3>
+                        <div class="blog-meta">Posted on May 22, 2023 | 7 min read</div>
+                        <p>How color choices impact brand perception and customer behavior across different industries.</p>
+                        <a href="#blog-post2" class="nav-link" data-page="blog-post2">Read More</a>
+                    </div>
+                </div>
+                
+                <div class="blog-post">
+                    <div class="portfolio-img">
+                        <img src="images/blog3.jpg" alt="Blog Post 3">
+                    </div>
+                    <div class="blog-content">
+                        <h3>Designing for Accessibility</h3>
+                        <div class="blog-meta">Posted on April 10, 2023 | 8 min read</div>
+                        <p>Practical tips for creating digital products that are accessible to all users, regardless of ability.</p>
+                        <a href="#blog-post3" class="nav-link" data-page="blog-post3">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Page -->
+        <section id="contact-page" class="page">
+            <h1>Get In Touch</h1>
+            <p>Have a project in mind or want to collaborate? Feel free to reach out!</p>
+            
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Project Detail Pages -->
+        <section id="project1-page" class="page">
+            <h1>E-commerce Website Project</h1>
+            <div class="about-section">
+                <div class="about-img">
+                    <img src="images/ecommerce-detail.jpg" alt="E-commerce Project">
+                </div>
+                <div class="about-content">
+                    <h2>Client: Fashion Retailer</h2>
+                    <p><strong>Project Duration:</strong> 3 months</p>
+                    <p><strong>Technologies Used:</strong> React, Node.js, MongoDB, Stripe API</p>
+                    <p>This project involved creating a fully responsive e-commerce website for a fashion retailer specializing in sustainable clothing. The site features product filtering, a custom shopping cart, user accounts, and secure checkout.</p>
+                    <p>Key challenges included implementing real-time inventory updates and creating a seamless mobile shopping experience. The result was a 35% increase in mobile conversions compared to their previous platform.</p>
+                    <a href="#portfolio" class="btn nav-link" data-page="portfolio">Back to Portfolio</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="project2-page" class="page">
+            <h1>Mobile App UI Project</h1>
+            <div class="about-section">
+                <div class="about-img">
+                    <img src="images/app-detail.jpg" alt="Mobile App Project">
+                </div>
+                <div class="about-content">
+                    <h2>Client: Health Tech Startup</h2>
+                    <p><strong>Project Duration:</strong> 2 months</p>
+                    <p><strong>Tools Used:</strong> Figma, Adobe XD, Principle</p>
+                    <p>Designed the user interface for a fitness tracking application that helps users monitor their workouts, nutrition, and sleep patterns. Created a cohesive design system with reusable components for both iOS and Android platforms.</p>
+                    <p>The design focused on simplicity and ease of use, with data visualization that makes complex information easily digestible. The app received positive feedback during beta testing for its intuitive navigation.</p>
+                    <a href="#portfolio" class="btn nav-link" data-page="portfolio">Back to Portfolio</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="project3-page" class="page">
+            <h1>Brand Identity Project</h1>
+            <div class="about-section">
+                <div class="about-img">
+                    <img src="images/branding-detail.jpg" alt="Brand Identity Project">
+                </div>
+                <div class="about-content">
+                    <h2>Client: Tech Startup</h2>
+                    <p><strong>Project Duration:</strong> 6 weeks</p>
+                    <p><strong>Deliverables:</strong> Logo, Color Palette, Typography, Brand Guidelines</p>
+                    <p>Developed a complete brand identity for a new SaaS company in the project management space. The branding needed to convey innovation, reliability, and approachability to appeal to both technical and non-technical users.</p>
+                    <p>The final identity system included a modular logo that could adapt to different contexts, a vibrant but professional color scheme, and clear guidelines for implementation across digital and print media.</p>
+                    <a href="#portfolio" class="btn nav-link" data-page="portfolio">Back to Portfolio</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Post Pages -->
+        <section id="blog-post1-page" class="page">
+            <div class="about-section">
+                <div class="about-content">
+                    <h1>The Future of Responsive Design</h1>
+                    <div class="blog-meta">Posted on June 15, 2023 | 5 min read</div>
+                    
+                    <p>Responsive design has come a long way since Ethan Marcotte first coined the term in 2010. What started as a technique to adapt layouts to different screen sizes has evolved into a comprehensive approach to building websites that work beautifully across an ever-expanding array of devices.</p>
+                    
+                    <h2>Beyond Screen Size</h2>
+                    <p>While media queries based on viewport width remain fundamental, modern responsive design considers many more factors:</p>
+                    <ul>
+                        <li><strong>Device capabilities:</strong> Touch screens, stylus input, or traditional mouse/keyboard</li>
+                        <li><strong>Environmental conditions:</strong> Lighting, noise levels, and even user motion</li>
+                        <li><strong>User preferences:</strong> Reduced motion, dark mode, and text size preferences</li>
+                    </ul>
+                    
+                    <h2>CSS Container Queries</h2>
+                    <p>One of the most exciting developments is the emergence of container queries, which allow components to adapt based on the space available to them rather than the viewport size. This enables truly modular, reusable components that can work in any context.</p>
+                    
+                    <h2>Adaptive Loading</h2>
+                    <p>With the performance gap between devices growing wider, adaptive loading techniques that serve different assets based on device capabilities and network conditions are becoming essential. This might mean:</p>
+                    <ul>
+                        <li>Simpler animations for low-powered devices</li>
+                        <li>Lower resolution images for slow connections</li>
+                        <li>Lazy loading non-critical resources</li>
+                    </ul>
+                    
+                    <p>As we look to the future, responsive design will continue to evolve beyond layout adaptation to encompass all aspects of creating inclusive, performant, and context-aware digital experiences.</p>
+                    
+                    <a href="#blog" class="btn nav-link" data-page="blog">Back to Blog</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <h2>BA27 Portfolio</h2>
+            <p>Creating digital experiences that inspire and engage.</p>
+            
+            <div class="social-links">
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">Dribbble</a>
+                <a href="#" target="_blank">GitHub</a>
+                <a href="#" target="_blank">Instagram</a>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2023 BA27 Portfolio. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
